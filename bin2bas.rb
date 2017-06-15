@@ -18,9 +18,10 @@ print <<~BASIC
   NEW
   CLEAR
 
-  10 REM Adapted by Grant Colegate for the RC2014
-  20 REM Original code by Filippo Bergamasco and DaveP
-  30 REM Version 0.1.0
+  10 REM Hex loader for the RC2014
+  20 REM Adapted by Grant Colegate
+  30 REM Original code by Filippo Bergamasco and DaveP
+  40 REM Version 0.1.0
 
   100 PRINT "Loading #{bin.length} bytes starting at &H#{options['start']}..."
   120 GOSUB 1000
