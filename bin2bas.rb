@@ -54,7 +54,7 @@ print <<~BASIC
 BASIC
 
 bin.each_slice(12).with_index do |bytes, i|
-  puts "#{5000 + i} DATA #{bytes.join(', ')}"
+  puts "#{5000 + i} DATA #{bytes.join(',')}"
 end
 
 print <<~BASIC
